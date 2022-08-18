@@ -1,0 +1,62 @@
+.xtblk:hover
+{
+    background-image: url(img/white-bg.webp);
+    background-size: cover;
+    filter:invert(10);
+color: rgb(11, 10, 10);
+}
+@media  (max-width:776px) {
+    .xtblk  {
+       height: 350px;
+    }
+}
+.dot
+{
+    list-style: none;
+}
+hr
+{
+   background-color: black;
+}
+.fontsize
+{
+    font-size: 10px;
+}
+@media (max-width:321px) {
+    .imgr{
+        width: 65%;
+        height: auto;
+    }
+}
+.nonul
+{
+    color: black;
+}
+
+
+@media (max-width: 1200px){
+    .xtblk h3{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .xtblk h5{
+        font-size: 11px;
+        padding-left: 5px;
+    
+    }
+}
+@media (max-width: 775px){
+    .xtblk h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .xtblk h5{
+        font-size: 15px;
+        text-align: center;
+    
+    }
+}
+
+
+
+
